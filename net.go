@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/eclipse/paho.mqtt.golang/packets"
-	"golang.org/x/net/websocket"
+	"github.com/golang/net/websocket"
 )
 
 func signalError(c chan<- error, err error) {
